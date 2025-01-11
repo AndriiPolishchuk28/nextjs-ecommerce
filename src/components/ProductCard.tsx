@@ -13,7 +13,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
     1000 * 60 * 60 * 24 * 7;
   return (
     <Link
-      href={"/products" + product.id}
+      href={"/products/" + product.id}
       className="card w-full bg-base-100 transition-shadow hover:shadow-xl"
     >
       <figure>
